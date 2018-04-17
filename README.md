@@ -16,3 +16,23 @@ D'autres idées de [plugin](http://joonro.github.io/blog/posts/powershell-custom
 
 Voici le résultat, avec PS Color  
 ![ps color shell](./pscolor_shell.png)
+
+## Configuration des couleurs
+La palette de couleurs de PowerShell est assez limité et surtout codée en dur !  
+Voici la liste des couleurs disponible :  
+- Black
+- DarkBlue
+- DarkGreen
+- DarkCyan
+- DarkRed
+- DarkMagenta
+- DarkYellow
+- Gray
+- DarkGray
+- Blue
+- Green
+- Cyan
+- Red
+- Magenta
+- Yellow
+- White
