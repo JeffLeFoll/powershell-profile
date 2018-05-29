@@ -27,3 +27,8 @@ Set-Alias l Get-ChildItemColor -option AllScope
 Set-Alias ls Get-ChildItemColorFormatWide -option AllScope
 
 $global:GitPromptSettings.BeforeText = ' on ['
+
+function which($name)
+{
+    Get-Command $name | Select-Object -ExpandProperty Definition
+}

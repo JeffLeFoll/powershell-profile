@@ -24,3 +24,8 @@ Import-Module posh-git
 Import-Module PSColor
 
 $global:GitPromptSettings.BeforeText = ' on ['
+
+function which($name)
+{
+    Get-Command $name | Select-Object -ExpandProperty Definition
+}
